@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 25%;
+    position: relative;
+    text-align: center;
+    background-color: rgb(218, 193, 245);
+}
+
+
+.avatar{
+    display: absolute;
+    position: absolute;
+    width:160px;
+    height: auto;
+    top: -70px;
+    left: -70px;
+    border-radius: 50%;
+
+}
+
+.card h2, .card p, .card button {
+    text-align: center;
+}
+
+.card button {
+    background-color: #4c53af;
+    color: white;
+}
+
+.card button:hover {
+    background-color: #4f5257;
+}
